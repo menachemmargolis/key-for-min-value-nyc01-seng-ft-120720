@@ -3,9 +3,8 @@
 
 def key_for_min_value(name_hash)
 
-if name_hash.any?
-   sv = name_hash.key[1]
-end
+
+   sv = nil
 
    name_hash.each do|k,v|
      if v < sv
