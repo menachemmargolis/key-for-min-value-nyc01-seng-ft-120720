@@ -10,19 +10,13 @@ def key_for_min_value(name_hash)
 
    name_hash.each do|k,v|
 
-     if sv == nil
-       sv = v
-     end
-
-     if v < sv
+     if sv == nil or v < sv
        sv = v
        sk = k
      end
 
 
 
-
-
- end
+  end
 return sk
 end
