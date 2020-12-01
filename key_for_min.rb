@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
 
 
    sv = nil
-
+   sk = nil
 
    name_hash.each do|k,v|
 
@@ -16,9 +16,11 @@ def key_for_min_value(name_hash)
 
      if v < sv
        sv = v
+       sk = k
      end
-binding.pry
 
+  return sk 
+   
 
 
  end
