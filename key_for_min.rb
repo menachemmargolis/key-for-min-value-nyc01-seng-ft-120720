@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
      if sv == nil
        sv = v
      end
-     
+
      if v < sv
        sv = v
      end
