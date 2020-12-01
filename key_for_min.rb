@@ -20,6 +20,7 @@ def key_for_min_value(name_hash)
 name_hash.each do|k,v|
   if name_hash.empty?
     return nil
+  end
 end
  end
 
